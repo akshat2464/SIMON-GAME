@@ -1,0 +1,46 @@
+body{
+    align-items:cetner;
+    text-align:center;
+}
+.box{
+    height:200px;
+    width:200px;
+    border-radius:20%;
+    border:10px solid black;
+    margin:2.0rem;
+}
+.box-container{
+    display:flex;
+    justify-content:center;
+}
+
+
+.red{
+    background-color:rgb(248, 50, 50);
+}
+.yellow{
+    background-color:rgb(245, 245, 32);
+}
+.green{
+    background-color:rgb(69, 248, 69);
+}
+.blue{
+    background-color:rgb(59, 180, 228);
+}
+
+.gameflash{
+    background-color:white;
+}
+.userflash{
+    background-color:black;
+    border:10px solid white;
+}
+
+.warn{
+    background-color:rgb(255, 0, 0);
+}
+
+.highscore{
+    position:fixed;
+    top:4px;
+}
